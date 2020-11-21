@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Bolamu</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+</head>
+
+<body>
+    <nav class="nav-extended green darken-2" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo left"><i class="large material-icons">arrow_back</i></a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="body-content" id="body-content">
+        </div>
+    </main>
+    <footer class="page-footer green darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Info Bolamu</h5>
+                    <p class="black-text text-lighten-4">
+                        Di web ini berisi infomorasi berbagai liga, termasuk klasemen sementara, sampai detail team.
+                    </p>
+                    <p class="black-text text-lighten-4">
+                        Web ini dibuat sebagai tugas kelompok UTS pemrograman Web.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container black-text">
+                Dibuat oleh Kelompok BanditFc
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb/lib/idb.js"></script>
+    <script src="js/bolaku_db.js"></script>
+    <script src="js/detailLeague.js"></script>
+    <script src="js/cek_sw.js"></script>
+    <script>
+        getLeagueId();
+    </script>
+</body>
+
+</html>
